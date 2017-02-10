@@ -16,6 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".PushSetActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".SettingActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".TestActivity"
+            android:screenOrientation="portrait"/>
+        <!--注：在使用极光推送的时候，其他所需的权限不需要在Manifest文件中声明，因为在编译下载JPush SDK
+               的时候就有自动Merged Manifest文件生成 -->
         <receiver
             android:name=".JPushReceiver"
             android:enabled="true"
