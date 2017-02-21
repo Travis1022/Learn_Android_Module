@@ -21,7 +21,7 @@ import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 
-import com.sunnybear.library.util.Logger;
+import com.travis.library.util.Logger;
 
 /**
  * 图片压缩工具
